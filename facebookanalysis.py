@@ -4,13 +4,13 @@ import datetime
 import csv
 import time
 
-# app_id = "<FILL IN>"
-# app_secret = "<FILL IN>" # DO NOT SHARE WITH ANYONE!
+app_id = "<FILL IN>"
+app_secret = "<FILL IN>" # DO NOT SHARE WITH ANYONE!
 page_id = "14408401557"
 
-# access_token = app_id + "|" + app_secret
+access_token = app_id + "|" + app_secret
 
-access_token = ''
+#access_token = ''
 
 
 def request_until_succeed(url):
